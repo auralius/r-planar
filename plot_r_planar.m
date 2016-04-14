@@ -22,3 +22,4 @@ robot.n = n;
 robot.lengths = lengths;
 robot.theta = theta;
 robot.pts = pts;
+robot.ee = pts(robot.n+1, :);
